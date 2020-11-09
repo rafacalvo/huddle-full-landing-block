@@ -54,6 +54,7 @@ a:active {
   display: inline-block;
   padding: 20px 80px;
   font-weight: 700;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Nav + Hero */
@@ -181,6 +182,10 @@ main {
 
 .promo-block > a:link {
   color: var(--very-p-cyan);
+}
+
+.promo-btn {
+  box-shadow: 0 8px 14px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
