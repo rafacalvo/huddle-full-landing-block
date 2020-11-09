@@ -36,7 +36,7 @@ ul {
 }
 
 a:link {
-  /* color: var(--very-d-cyan); */
+  color: var(--very-d-cyan);
   text-decoration: none;
 }
 
