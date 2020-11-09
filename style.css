@@ -53,6 +53,7 @@ a:active {
   border-radius: 50px;
   display: inline-block;
   padding: 20px 80px;
+  font-weight: 700;
 }
 
 /* Nav + Hero */
@@ -236,18 +237,13 @@ i {
   color: var(--pink);
 }
 
-@media only screen and (max-width: 741px) {
-  body {
-    font-size: 16px;
-  }
-
+@media only screen and (max-width: 1025px) {
   .hero-nav {
     padding: 36px 22px;
     background-image: url('/images/bg-hero-mobile.svg');
   }
 
   nav > .nav-btn {
-    font-weight: 700;
     color: var(--very-d-cyan);
     padding: 10px 26px;
     background-color: #fff;
@@ -264,10 +260,9 @@ i {
   }
 
   .hero-btn {
-    padding: 14px 50px;
     margin-bottom: 70px;
-    font-size: 14px;
-    font-weight: 700;
+    padding: 14px 50px;
+    font-size: 16px;
   }
 
   main {
@@ -306,11 +301,11 @@ i {
     text-align: center;
     position: absolute;
     z-index: 10;
-    left: 7%;
-    top: 580%;
+    left: 10%;
+    top: 308%;
     margin: 0 12px;
     padding: 60px 30px;
-    width: 600px;
+    width: 800px;
     height: 216px;
   }
 
@@ -321,7 +316,6 @@ i {
   .promo-btn {
     padding: 14px 50px;
     font-size: 16px;
-    font-weight: 700;
   }
 
   footer {
@@ -338,6 +332,38 @@ i {
   }
 }
 
+@media only screen and (max-width: 769px) {
+  body {
+    font-size: 16px;
+  }
+
+  .promo-block {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    left: 9%;
+    top: 215%;
+    margin: 0 12px;
+    padding: 60px 30px;
+    width: 600px;
+    height: 216px;
+  }
+}
+
+@media only screen and (max-width: 741px) {
+  .promo-block {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    left: 7%;
+    top: 600%;
+    margin: 0 12px;
+    padding: 60px 30px;
+    width: 600px;
+    height: 216px;
+  }
+}
+
 @media only screen and (max-width: 376px) {
   .hero-nav {
     padding: 32px 20px;
@@ -349,7 +375,6 @@ i {
 
   nav > .nav-btn {
     font-size: 12px;
-    font-weight: 700;
     color: var(--very-d-cyan);
     padding: 9px 18px;
     background-color: #fff;
@@ -363,7 +388,6 @@ i {
     padding: 16px 60px;
     margin-bottom: 70px;
     font-size: 12px;
-    font-weight: 700;
   }
 
   .block {
@@ -387,7 +411,7 @@ i {
     position: absolute;
     z-index: 10;
     left: 2%;
-    top: 370%;
+    top: 412%;
     margin: 0 12px;
     padding: 60px 30px;
     width: 332px;
@@ -402,7 +426,6 @@ i {
   .promo-btn {
     padding: 12px 50px;
     font-size: 10px;
-    font-weight: 700;
   }
 
   #footer-logo {
@@ -448,5 +471,19 @@ i {
 
   .attribution > a:link {
     color: blue;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .promo-block {
+    text-align: center;
+    position: absolute;
+    z-index: 10;
+    left: 1%;
+    top: 370%;
+    margin: 0 12px;
+    padding: 60px 30px;
+    width: 332px;
+    height: 216px;
   }
 }
