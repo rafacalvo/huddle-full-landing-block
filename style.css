@@ -54,9 +54,14 @@ a:active {
   display: inline-block;
   padding: 20px 80px;
   font-weight: 700;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* Nav + Hero */
+.container {
+  margin: 0 auto;
+  max-width: 1125px;
+}
 
 .hero-nav {
   padding: 60px 80px;
@@ -162,8 +167,8 @@ main {
 
   position: absolute;
   z-index: 10;
-  left: 20%;
-  top: 335%;
+  left: 358px;
+  top: 347%;
   width: 800px;
   height: 280px;
 
@@ -173,6 +178,10 @@ main {
 
 .promo-block > h2 {
   margin-bottom: 40px;
+}
+
+.promo-btn {
+  box-shadow: 0 8px 14px 0px rgba(0, 0, 0, 0.1);
 }
 
 /* Footer */
@@ -411,7 +420,7 @@ i {
     position: absolute;
     z-index: 10;
     left: 2%;
-    top: 412%;
+    top: 338%;
     margin: 0 12px;
     padding: 60px 30px;
     width: 332px;
